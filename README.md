@@ -14,7 +14,7 @@
 - **LocalStorage Support** – Retains data across sessions without needing a server.
 
 ## 🖥️ How to Run the Project
-1. **Download** the ZIP folder or clone the repository.
+1. **Download** the folder or clone the repository.
 2. **Extract** the files to a folder on your computer.
 3. **Open** the `index.html` file using any modern web browser (Chrome, Firefox, Edge, Safari).
 4. **Explore** the app by interacting with each section of the dashboard.
