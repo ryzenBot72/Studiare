@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Studiare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dashboard, <span id="displayUserName"></span>!</h1>
+        <button id="logoutBtn">Log Out</button>
+    </header>
+
+    <main>
+        <h2>Choose a tool to get started:</h2>
+
+        <!-- Dashboard Layout (Flexible Layout for Features) -->
+        <div class="dashboard-layout">
+            
+            <!-- Assignments Feature Card -->
+            <div class="feature-card feature-box">
+                <h3>Assignments 📚</h3>
+                <p>Track your homework deadlines easily.</p>
+                <a href="assignments.html" class="btn">Open</a>
+            </div>
+
+            <!-- Pomodoro Timer Feature Card -->
+            <div class="feature-card feature-box">
+                <h3>Pomodoro Timer ⏳</h3>
+                <p>Focus with study sessions and breaks.</p>
+                <a href="pomodoro.html" class="btn">Open</a>
+            </div>
+
+            <!-- Notes Feature Card -->
+            <div class="feature-card feature-box">
+                <h3>Notes 📝</h3>
+                <p>Save quick notes and ideas anytime.</p>
+                <a href="notes.html" class="btn">Open</a>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p class="footer-text">© 2025 Studiare. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

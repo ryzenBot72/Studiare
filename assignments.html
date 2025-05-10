@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments - Studiare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="assignment-heading">Assignments Tracker</h2>
+    <p><i>Never miss a deadline again📌!</i></p>
+    <a href="dashboard.html" class="back-btn">← Back to Dashboard</a>
+
+    <!-- Assignment form -->
+    <form id="assForm">
+        <label for="assName">Assignment Name :</label>
+        <input type="text" id="assName" placeholder="Enter Assignment Name" required><br><br>
+
+        <label for="assSub">Subject :</label>
+        <input type="text" id="assSub" placeholder="Enter Subject" required><br><br>
+
+        <label for="assDate">Due Date :</label>
+        <input type="date" id="assDate" required><br><br>
+
+        <button type="submit">Add Assignment</button>
+    </form>
+    
+    <!-- List of assignments -->
+    <div id="assignmentList"></div>
+    <footer>
+        <p class="footer-text">© 2025 Studiare. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

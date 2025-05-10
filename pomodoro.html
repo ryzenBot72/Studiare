@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer - Studiare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pomodoro Timer</h1>
+        <p><i>Work smarter, one session at a time.⏰</i></p>
+    </header>
+    <a href="dashboard.html" class="back-btn">← Back to Dashboard</a>
+    <div id="pomodoroPage">
+        <p id="sessionCount">Sessions Completed: 0</p>
+        <div id="timer-container">
+            <h2 id="mode">Work</h2>
+            <p id="timer">25:00</p>
+            <button id="startBtn">Start</button>
+            <button id="pauseBtn" disabled>Pause</button>
+            <button id="resetBtn" disabled>Reset</button>
+            <br><br>
+            <div id="progressBarContainer">
+                <div id="progressBar"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="footer-text">© 2025 Studiare. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

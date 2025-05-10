@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sticky Notes</title>
+</head>
+<body>
+    <h2 class="note-heading">Sticky Notes</h2>
+    <p><i>Note anything IMP📝!</i></p>
+
+    <a href="dashboard.html" class="back-btn">← Back to Dashboard</a>
+    <form id="noteForm">
+        <label for="noteTitle">Title :</label>
+        <input type="text" id="noteTitle" placeholder="Title for Note" required><br><br>
+
+        <label for="noteText">Note :</label>
+        <textarea id="noteText" rows="4" cols="50" placeholder="Write your note here..." required></textarea><br><br>
+
+        <button type="submit">Save Note</button>
+    </form>
+
+    <section id="notesList"></section>
+    <footer>
+        <p class="footer-text">© 2025 Studiare. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
